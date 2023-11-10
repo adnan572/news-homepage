@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(Roboto);
+}
+
+.pop-up {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    position: absolute;
+    min-height: 500px;
+    min-width: 500px;
+    visibility: hidden;
+    top: 80px;
+    left: 300px;
+    border-radius: 8px;
+}
+
+.first {
+    
+}
+
+.pop-up header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttony button {
+    margin-bottom: 35px;
+    background-color: hsl(4, 100%, 67%);
+    margin-left: 10px;
+    min-width: 350px;
+    min-height: 50px;
+    border: thin;
+    cursor: pointer;
+}
+
+.pop-up h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+
+}
+
+.contenty {
+    margin-bottom: 0;
+
+}
+
+input:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+ul {
+    list-style-image: url('assets/images/icon-list.svg');
+
+
+}
+
+.main-content {
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+
+.first {
+    display: block;
+    max-width: 100%;
+    max-height: 502px;
+    margin-left: 65px;
+    }
+    .second {
+        display: none;
+    }
+
+
+
+.pop-up {
+    background-color: white;
+    max-width: 400px;
+}
+
+.header svg {
+    margin: 20px 15px 30px;
+}
+
+.one {
+    margin-top: 30px;
+}
+
+.grid-flow {
+    display: grid;
+    grid-template-areas: 'main side';
+    background-color: white;
+    max-height: 500px;
+    margin: 80px auto;
+    max-width: 800px;
+    border-radius: 20px;
+
+}
+
+li {
+    margin-bottom: 14px;
+}
+
+.form div {
+    margin-bottom: 5px;
+    color: hsl(235, 18%, 26%);
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+}
+
+input:focus {
+    border-color: aliceblue;
+}
+
+ul {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 17px;
+}
+
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: hsl(234, 29%, 20%);
+}
+
+.sign-up {
+    font-size: 3em;
+    font-family: roboto;
+    color: hsl(235, 18%, 26%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+button:hover {
+    background-image:linear-gradient(45deg, #ffb6, transparent); 
+    background-position: 0 0 ;
+}
+.one {
+    grid-area: main;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.two {
+    grid-area: side;
+    width: 400px;
+}
+
+.submit button {
+    background-color: hsl(235, 18%, 26%);
+    cursor: pointer;
+}
+
+button {
+    width: 304px;
+    height: 45px;
+
+    color: white;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+
+@media screen and  (max-width: 1000px) {
+    .grid-flow {
+        grid-template-areas: 'side'
+            'main';
+        background-color: transparent;
+        margin-bottom: 0;
+       
+        min-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 100vh;
+max-width: 500px ;
+    }
+
+
+    .one {
+        margin: 30px auto;
+        max-width: 100%;
+        transform: translate(10px, 0px);
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 0;
+
+    }
+    .sign-up {
+        font-size: 2em;
+        margin-top: 25px;
+    }
+
+.first {
+    display: none;
+}
+.second {
+    display: block;
+}
+    li {
+        font-size: 1.1em;
+    }
+
+    .content {
+        font-size: 1.1em;
+    }
+
+    .form div {
+        font-size: 1.2em;
+
+    }
+
+    input {
+        min-width: 100%;
+        height: 56px;
+        border-style: double;
+        border-color: darkgray;
+        border-radius: 8px;
+    }
+
+    .two {
+        width: 100%;
+    }
+    .second {
+        min-width: 100%;
+    }
+    .grid-flow {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .grid-flow {
+        margin-top: 0;
+        max-height: inherit;
+        background-color: white;
+    }
+.form {
+    padding-right: 12px;
+}
+    button {
+        min-width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border-style: none;
+        font-weight: 900;
+    }
+
+   
+}
