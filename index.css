@@ -60,7 +60,7 @@ input:focus {
 }
 
 ul {
-    list-style-image: url('assets/images/icon-list.svg');
+    list-style-image: url('icon-list.svg');
 
 
 }
@@ -190,19 +190,19 @@ button {
         background-color: transparent;
         margin-bottom: 0;
        
-        min-width: 375px;
+        
         margin-left: auto;
         margin-right: auto;
         min-height: 100vh;
-max-width: 500px ;
+max-width: 375px ;
     }
 
 
     .one {
         margin: 30px auto;
-        max-width: 100%;
+        max-width: 95%;
         transform: translate(10px, 0px);
-        padding-left: 20px;
+        padding-left: 10px;
         padding-right: 20px;
         margin-top: 0;
 
@@ -241,6 +241,7 @@ max-width: 500px ;
 
     .two {
         width: 100%;
+        overflow: hidden;
     }
     .second {
         min-width: 100%;
