@@ -183,21 +183,26 @@ button {
 }
 
 
-@media screen and  (max-width: 1000px) {
+@media screen and  (max-width: 750px) {
     .grid-flow {
         grid-template-areas: 'side'
             'main';
         background-color: transparent;
         margin-bottom: 0;
-       
-        
+       min-width:345px;
+        transform:scale(0.8);
         margin-left: auto;
         margin-right: auto;
         min-height: 100vh;
 max-width: 370px ;
     }
 
-
+.card {
+    display:grid;
+    justify-content: center;
+    pading-left:50px;
+    padding-right:50px;
+}
     .one {
         margin: 30px auto;
         max-width: 95%;
@@ -242,6 +247,7 @@ max-width: 370px ;
     .two {
         width: 100%;
         overflow: hidden;
+        border-bottom-right-radius: 17px;
     }
     .second {
         min-width: 100%;
